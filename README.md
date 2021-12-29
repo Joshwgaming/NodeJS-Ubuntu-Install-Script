@@ -1,7 +1,10 @@
 # NodeJS-Ubuntu-Install-Script
 Install script to install npm &amp; NodeJS on ubuntu 20.04.3 LTS.
 
-
+## Prerequisites:
+- Ubuntu 20.04.3 LTS vm/container
+- Internet connection
+- Sudo/root user permission
 
 
 - Create file named ubuntu-nodejs-script.sh
@@ -26,7 +29,7 @@ Install script to install npm &amp; NodeJS on ubuntu 20.04.3 LTS.
 ```
 - Update the permissions of the script
 ```
-  sudo chmod +x /ubuntu-nodejs-script.sh
+  sudo chmod +x ~/ubuntu-nodejs-script.sh
 ```
 - Run the script
 ```
